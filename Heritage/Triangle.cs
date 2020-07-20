@@ -10,7 +10,7 @@ namespace Heritage
 
         public override double Aire => (A*B)/2;
 
-        public override double Perimetre => A*B*C;
+        public override double Perimetre => A+B+C;
 
         public override string ToString()
         {
